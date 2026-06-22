@@ -1,0 +1,6 @@
+# .gitignore फाइल बनाएं और उसमें जरूरी इग्नोर रूल्स डालें
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo ".env" >> .gitignore
+echo "venv/" >> .gitignore
+echo ".devcontainer/" >> .gitignore
