@@ -1,9 +1,10 @@
 # Python Mastery Journey
 
-This repository tracks my transition to advanced Python development. 
+This repository tracks my transition to advanced Python development.
 
 ## Roadmap
-- [ ] Module 1: Fundamentals & CLI Automation
+
+- [x] Module 1: Fundamentals & CLI Automation
 - [ ] Module 2: Data Structures & Processors
 - [ ] Module 3: OOP & Design Patterns
 - [ ] Module 4: System IO & Log Analysis
@@ -11,4 +12,4 @@ This repository tracks my transition to advanced Python development.
 - [ ] Module 6: Professional Tooling & Deployment
 
 ## Status
-- Currently in: Module 1
+- Currently in: Module 2 (Data Structures)
