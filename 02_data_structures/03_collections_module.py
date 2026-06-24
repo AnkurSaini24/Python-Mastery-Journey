@@ -1,6 +1,6 @@
 from collections import defaultdict,Counter
 
-# 1. defaultdict: डेटा को ग्रुप करने के लिए बहुत यूज़फुल
+# 1. defaultdict: helpful in grouuping data 
 data = [('fruit','apple'),('veg','carrot'),('fruit','banana')]
 grouped_data = defaultdict(list)
 
@@ -10,7 +10,7 @@ for category,item in data:
 print(f"Grouped Data:{dict(grouped_data)}")
 
 
-# 2. Counter: डेटा काउंटिंग के लिए
+# 2. Counter: use for data counting
 items = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
 counts = Counter(items)
 print(f"Item Counts: {counts}")

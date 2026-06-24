@@ -9,6 +9,6 @@ print(f"Roles (Tuple) :{user_roles}")
 active_users:set[str] = {"ankur","anand","ankur","rohan"}
 print(f"Unqiue Active Users (Set): {active_users}")
 
-# Set का फायदा: Membership testing बहुत तेज़ होती है
+# Set uses in Membership testing 
 if "ankur" in active_users:
     print("Ankur is in the set!")

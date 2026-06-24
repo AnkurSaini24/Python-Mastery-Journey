@@ -24,6 +24,6 @@ for log in logs:
           error_messages[log["message"]] += 1
    
 
-print(f"\n--- विस्तृत एरर रिपोर्ट (Detailed Error Report) ---")
+print(f"\n--- (Detailed Error Report) ---")
 for error, count in error_messages.items():
-    print(f"Error: '{error}' आया है {count} बार")          
+    print(f"Error: '{error}' :: {count} ")    
